@@ -82,12 +82,11 @@ const checkWinner = () => {
       }
     }
   
-    // Check for a tie if all boxes are filled
     if (count === 9 && !win) {
       declareTie();
     }
   };
-  
+
 
 const resetGame = () => {
   winnertext.innerHTML = "Player O's turn";
